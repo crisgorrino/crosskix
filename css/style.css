@@ -1,0 +1,147 @@
+@font-face{
+	font-family: 'helveticaneuelight';
+	src: url('fonts/helveticaneue-light-webfont.eot') format('embedded-opentype'),
+	url('fonts/helveticaneue-light-webfont.woff') format('woff'),
+	url('fonts/helveticaneue-light-webfont.ttf') format('truetype'),
+	url('fonts/helveticaneue-light-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-os375s');
+	src:url('fonts/icomoon.eot?#iefix-os375s') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-os375s') format('woff'),
+		url('fonts/icomoon.ttf?-os375s') format('truetype'),
+		url('fonts/icomoon.svg?-os375s#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+	content: "\e600";
+}
+
+
+
+html, body, .container{height:100%!important; font-family:helveticaneuelight;}
+		
+/*--CLEARFIX--*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+/*--menu--*/
+.navigation{position:fixed; width: 100%;  z-index: 1000; background-color:#fff; padding:1% 0;}
+.inner{width:80%; margin:0 auto;}
+.logo{width:15%; float:left}
+.logo img{width:100%;}
+.header-nav{width:30%; float:right;}
+.header-nav a{display: inline-block; vertical-align: middle; padding-top:4%; text-decoration: none; color:#000; text-transform: uppercase; font-size: .8em;}
+
+
+.top-logo{margin:0 auto; padding:20% 0 0 0; display:block; width:25%;}
+.top-left{position:absolute; display:block; top:20%; left:0; width:48%;}
+.top-right{position:absolute; display:block; top:13%; right:0; width:50%;}
+
+/*--BG's--*/
+.uno{background-image:url(../img/bg1.jpg); background-repeat: no-repeat; background-size:cover; height:100%!important;}
+.dos{background-image:url(../img/bg2.jpg); background-repeat: no-repeat; background-size:cover;  background-position: center center; height:100%!important;}
+.tres{background-image:url(../img/bg3.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+.cuatro{background-image:url(../img/bg4.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+.cinco{background-image:url(../img/bg5.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+.seis{background-image:url(../img/bg6.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+.siete{background-image:url(../img/bg7.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+.ocho{background-image:url(../img/bg8.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+.nueve{background-image:url(../img/bg9.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+.diez{background-image:url(../img/bg10.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+.once{background-image:url(../img/bg11.jpg); background-repeat: no-repeat;  background-size:cover;  background-position: center center; height:100%!important;}
+
+
+/*--bubbles--*/
+.bubble-1{position: absolute;top: 37%; left: 12%; width: 2%; }
+.bubble-2{position: absolute;top: 70%; left: 17%; width: 4%;}
+.chorro-verde{position:absolute; bottom: 43%;  right: 0; width: 37%;}
+
+.chorro-negro{position: absolute; width: 30%; top: 44%;}
+.bubble-3{position: absolute;right: 22%;bottom: 19%;width: 4%;}
+.chorro-naranja{position: absolute;right: 0;top: 48%;width: 31%;}
+
+.chorro-negro-2{position: absolute; bottom: 14%; width: 37%; left: 0;}
+.bubble-4{position: absolute; right: 39%; top: 24%;width: 2%;}
+.bubble-5{position: absolute; right: 25%; bottom: 54%; width: 4%;}
+
+.gota-balnca-g{position: absolute; top: 18%; left: 25%; width: 5%;}
+.gota-balnca-s{position: absolute; bottom: 37%; left: 23%; width: 2%;}
+.gota-balnca-s-2{position: absolute; right: 27%; bottom: 8%; width: 2%;}
+.chorro-morado{position: absolute; right: 0; top: 30%; width: 31%;}
+
+.chorro-verde-2{position:absolute; right: 0; top:5%; width:30%; }
+.gota-verde{position:absolute; width: 4%; bottom: 15%; left: 9%;}
+.gota-verde2{position:absolute; width: 3%; right: 25%; bottom: 26%;}
+.chorro-blanco{position:absolute; left: 0; bottom:2%; width:30%;}
+
+.footer-shoe{display: block; width:45%; position: absolute; top: 11%; left: 28%;}
+.footer-logo{width:16%; display: block; position: absolute; top: 49%; left: 42%;}
+
+.contact_info{width:50%; margin:0 auto; text-align: center; position:relative; top:53%; background-image: url(../img/contact-info-border.png); background-repeat: no-repeat; background-position: center bottom; padding:1% 0 3% 0;}
+.contact_info p{float:left; font-size: .8em; width:15%;}
+
+.interesado-txt{width:50%; text-align: center; margin:0 auto; position: relative; top:55%;}
+.info-mail{display: block; text-align: center; color:#000; text-decoration: none; position: relative; top:57%}
+.info-mail:hover{text-decoration: underline;}
+
+
+.verde-footer{position:absolute; width:27%; left:0; top:30%;}
+.morado-footer{position:absolute; width:26%; left:0; top:38%;}
+.blanco-footer{position:absolute; width:27%; right:0; top:43%;}
+.naranja-footer{position:absolute; width:28%; right:0; top:38%;}
+
+/*--media queries--*/
+
+/*--phone--*/
+
+@media all and (min-width : 320px) and (max-width : 759px){ 
+
+	.logo {width: 50%;float: left;}
+	.header-nav {width: 42%;}
+	.header-nav a { font-size: 0.7em;}
+	.contact_info p {float: left;font-size: .7em;width: 49%;}
+	.footer-shoe {display: none;}
+	.footer-logo {top: 10%;}
+	.contact_info {top:11%;}
+	.interesado-txt {width:99%; top: 12%; font-size: .8em;}
+	.info-mail {top: 14%;}
+
+}
+
