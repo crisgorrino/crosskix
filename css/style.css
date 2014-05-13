@@ -141,7 +141,15 @@ html, body, .container{height:100%!important; font-family:helveticaneuelight;}
 	.footer-logo {top: 10%;}
 	.contact_info {top:11%;}
 	.interesado-txt {width:99%; top: 12%; font-size: .8em;}
-	.info-mail {top: 14%;}
+	.info-mail {top: 14%;}	
 
 }
 
+
+/*--Tablets--*/
+@media all
+and (min-width : 760px) and (max-width : 1024px) {
+
+.contact_info p {float: left;font-size: .8em;width: 25%;}
+
+}
